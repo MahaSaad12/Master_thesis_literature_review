@@ -2,6 +2,32 @@
 
 **Topic:** Optimized Digital Twin Architecture for Efficient Humanoid Bin Picking using Reinforcement Learning
 
+| Paper | Dataset Used | Details |
+|-------|--------------|---------|
+| **Deep Learning for Robotic Bin Picking** | **RGB-D datasets**, **Dex-Net**, **YCB Object Dataset**, synthetic grasp datasets, and custom industrial RGB-D datasets | Most deep-learning bin-picking systems are trained using synthetic grasp data (e.g., **Dex-Net**) and evaluated on real robotic platforms using RGB-D cameras. Many studies also use the **YCB Object Dataset** for grasp planning and object recognition. Some industrial implementations collect their own RGB-D datasets to improve performance in specific production environments. |
+| **Robotic Bin Picking: A Survey of Perception and Manipulation** | **No single dataset (Survey Paper)** | This paper is a literature survey and does **not** introduce or train on a dataset. Instead, it reviews the most widely used robotic bin-picking datasets, including **Dex-Net**, **YCB Object Dataset**, **LINEMOD**, **ROBI (Reflective Objects in Bin Picking)**, and several proprietary industrial datasets, comparing their applications, strengths, and limitations. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This table summarizes key papers relevant to the proposed research.
 
 | Category | Paper | Problem Statement | Proposed Solution | Key Results | Limitations / Drawbacks | Relevance to This Thesis |
