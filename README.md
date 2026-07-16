@@ -1,3 +1,67 @@
+
+## KUKA KR 360 in RoboDK
+
+<p align="center">
+  <img src="kuka_kr360.png" width="650">
+</p>
+
+<p align="center">
+<b>Figure 1.</b> KUKA KR 360 robot imported into RoboDK.
+</p>
+
+### Description
+
+The **KUKA KR 360** is a six-axis industrial robot used for heavy-duty
+manufacturing tasks. In RoboDK, it serves as a digital twin that enables:
+
+- Offline programming
+- Robot path planning
+- Collision detection
+- Pick-and-place simulation
+- Cycle time estimation
+- Python API integration
+- ROS/ROS 2 communication
+- Reinforcement Learning research
+- Sim-to-Real validation
+
+### Specifications
+
+| Property | Value |
+|----------|-------|
+| Manufacturer | KUKA |
+| Robot Type | 6-axis Industrial Robot |
+| Payload | 240 kg |
+| Reach | 2825 mm |
+| Repeatability | ±0.08 mm |
+
+### Workflow
+
+```text
+CAD Model
+     │
+     ▼
+ RoboDK
+     │
+     ▼
+ KUKA KR 360
+     │
+     ▼
+Trajectory Planning
+     │
+     ▼
+Collision Checking
+     │
+     ▼
+Offline Program Generation
+     │
+     ▼
+Real KUKA Robot
+```
+
+
+
+
+
 # Literature Review Matrix for Master's Thesis
 
 **Topic:** Optimized Digital Twin Architecture for Efficient Humanoid Bin Picking using Reinforcement Learning
