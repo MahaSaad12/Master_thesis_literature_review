@@ -2,7 +2,7 @@
 ## KUKA KR 360 in RoboDK
 
 <p align="center">
-  <img src="kuka_kr360.png" width="650">
+  <img src="kuka_kr360.jpg" width="650">
 </p>
 
 <p align="center">
