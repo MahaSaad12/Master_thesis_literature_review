@@ -245,3 +245,10 @@ This table summarizes key papers relevant to the proposed research.
 6. Industrial validation using NVIDIA Isaac Sim and humanoid robots is limited.
 
 These gaps directly motivate the proposed master's thesis.
+| Method                     | Simulator  | RL          | Cycle Time | Success Rate | Collision Rate |
+| -------------------------- | ---------- | ----------- | ---------- | ------------ | -------------- |
+| Mahler et al. (2017)       | PyBullet   | GQ-CNN      | Reported   | Reported     | Reported       |
+| QT-Opt (2018)              | Real Robot | Deep RL     | Reported   | Reported     | Reported       |
+| Dynamic Bin Picking (2024) | Custom     | RL          | Reported   | Reported     | Reported       |
+| **Proposed Method**        | **RoboDK** | **PPO/SAC** | Measured   | Measured     | Measured       |
+
